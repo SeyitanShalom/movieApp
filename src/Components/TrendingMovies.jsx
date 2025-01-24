@@ -25,8 +25,6 @@ const TrendingMovies = () => {
     }));
   };
 
-
-
   // const [favourites, setFavourites] = useLocalStorage("Favourtes", "");
 
   useEffect(() => {
@@ -83,7 +81,6 @@ const TrendingMovies = () => {
                     <Link
                       to={`/movie/${movie.id}`}
                       style={{ color: "white", textDecoration: "none" }}
-                      target="blank"
                     >
                       {" "}
                       <div className="relative">
